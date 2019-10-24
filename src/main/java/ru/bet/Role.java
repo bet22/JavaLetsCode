@@ -1,4 +1,5 @@
 package ru.bet;
 
-public class Role {
+public enum Role {
+    USER;
 }
