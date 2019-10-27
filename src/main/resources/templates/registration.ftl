@@ -3,6 +3,6 @@
 
 <@com.page>
     Add new user
-    
+
 <@log.login "/registration" />
 </@com.page>
