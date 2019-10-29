@@ -3,6 +3,6 @@
 
 <@com.page>
     Add new user
-
+    ${message!}
 <@log.login "/registration" />
 </@com.page>
