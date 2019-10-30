@@ -1,6 +1,6 @@
 <#import "parts/common.ftl" as com>
 
 <@com.page>
-    <div>Hello, user</div>
-    <a href="/main">Main page</a>
+    <h5>Hello, guest</h5>
+    <div>This test site was created during the study</div>
 </@com.page>

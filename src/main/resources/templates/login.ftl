@@ -2,7 +2,5 @@
 <#import "parts/login.ftl" as log>
 
 <@com.page>
-    Login page
-    <@log.login "/login" />
-    <a href="/registration">Create new user</a>
+    <@log.login "/login" false/>
 </@com.page>

@@ -2,7 +2,7 @@
 <#import "parts/login.ftl" as log>
 
 <@com.page>
-    Add new user
+<div class="mb-1">Add new user</div>
     ${message!}
-<@log.login "/registration" />
+<@log.login "/registration" true/>
 </@com.page>
