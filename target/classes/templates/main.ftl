@@ -29,7 +29,7 @@
             </div>
             <input type="hidden" name="_csrf" value="${_csrf.token}">
             <div class="form-group">
-                <button type="submit" class="btn btn-primary ml-2">Добавить</button>
+                <button type="submit" class="btn btn-primary">Добавить</button>
             </div>
         </form>
     </div>

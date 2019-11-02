@@ -17,7 +17,17 @@
     <tr>
         <td>${user.username}</td>
         <td><#list user.roles as role>${role}<#sep>, </#list></td>
-        <td><a href="/user/${user.id}">Edit</a></td>
+        <td><a href="/user/${user.id}" class="btn btn-outline-secondary btn-sm ml-2">edit</a></td>
+        <!-- 20191102 Пытался настроить кнопку удаления пользователе. Кнопка работает
+        Удаляет поли в db user_role. Не то что нужно, поэтому закомментировал-->
+        <!--<td>
+            <form method="post">
+                <input type="hidden" value="${user.username}" name="username">
+                <input type="hidden" value="${user.id}" name="userId">
+                <input type="hidden" value="${_csrf.token}" name="_csrf">
+                <button type="submit" class="btn btn-outline-warning btn-sm ml-1">Delete</button>
+            </form>
+        </td>-->
     </tr>
     <#else>
     No user

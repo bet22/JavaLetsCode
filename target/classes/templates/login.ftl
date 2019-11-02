@@ -2,5 +2,6 @@
 <#import "parts/login.ftl" as log>
 
 <@com.page>
-    <@log.login "/login" false/>
+${message?ifExists}
+<@log.login "/login" false/>
 </@com.page>

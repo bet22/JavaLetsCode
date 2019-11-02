@@ -56,4 +56,19 @@ public class UserController {
 
         return "redirect:/user";
     }
+
+    //20191102 Пытался настроить удаление пользователей из db usr.
+    // Почему то удаляются роли из db user_role. ХЗ так и не разобрался
+    // Вначале удалял по id. Потом решил по username. Не помогло.
+    /*@GetMapping("delete/{id}")
+    public String deleteUser(@PathVariable User user,Model model) {
+
+        User user2= userRepo.findByUsername(user.getUsername());
+                *//*.orElseThrow(() -> new IllegalArgumentException("Invalid user id: " + user.getId()));*//*
+        userRepo.delete(user);
+        //model.addAttribute()
+        model.addAttribute("students", userRepo.findAll());
+
+        return "/user";
+    }*/
 }
