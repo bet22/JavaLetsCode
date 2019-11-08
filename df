@@ -1,0 +1,65 @@
+[33mcommit 4ec5a48836b611ff9a7a42f71af3d233e15e7d33[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Sat Nov 2 17:38:11 2019 +0700
+
+    restored three commits. Spring Boot Mail. Bootstrap
+
+[33mcommit 80683c646e6f808d9d1f05abaa16684e8c4dc757[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Wed Oct 30 22:00:39 2019 +0700
+
+    edit decor with Bootstrap
+
+[33mcommit ac47d2237efabc4604f4e5a7b0dbd7c6b2e3a8a8[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Tue Oct 29 10:46:05 2019 +0700
+
+    del folder Images
+
+[33mcommit 83528ece7e39877a46fe1a28d459ba889bbee299[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Tue Oct 29 10:44:21 2019 +0700
+
+    add upload file in server and file distribution
+
+[33mcommit 8c83c80444a80cd658352fcfb0349788f0744ba7[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Sun Oct 27 16:33:23 2019 +0700
+
+    Spring Boot Security: добавил панель администратора и роли пользователей. Ограничил доступ к панели администратора
+
+[33mcommit e71ebeb1d00237b3f253baa27d4a9b1f68e04228[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Fri Oct 25 16:11:28 2019 +0700
+
+    connected freemarker
+
+[33mcommit 872315475e409bc1a41156925d9363d242d20af6[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Fri Oct 25 11:36:42 2019 +0700
+
+    add Spring Hibernate: добавляем связи меджу таблицами базы данных
+
+[33mcommit 16c641a83dfe8aebb8b1c6bf9a0878181ef3e202[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Thu Oct 24 21:34:26 2019 +0700
+
+    add Spring Boot JPA (Hibernate) and Spring Boot Security
+
+[33mcommit aafd0f36c2e77532c6c458291f0e9dadeee09411[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Thu Oct 24 21:32:27 2019 +0700
+
+    add Spring Boot JPA (Hibernate) and Spring Boot Security
+
+[33mcommit eb8706221dd9dd875c5587c18bd701460953a716[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Thu Oct 10 09:15:34 2019 +0700
+
+    add betpage.mustache and change thymeleaf -> mustache
+
+[33mcommit b987b817d32900c1bf6274fa2563d5538cc60afa[m
+Author: Alexey Betoyv <bet_222@list.ru>
+Date:   Wed Oct 9 15:30:12 2019 +0700
+
+    First lesson
