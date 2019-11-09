@@ -1,0 +1,14 @@
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\Application.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\Controllers\RegistrationController.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\Repo\UserRepo.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\Repo\MessageRepo.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\Role.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\Message.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\User.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\config\MvcConfig.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\Controllers\MainController.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\services\UserService.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\config\MailConfig.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\Controllers\UserController.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\config\WebSecurityConfig.java
+D:\GitHub\JavaLetsCode\src\main\java\ru\bet\services\MailSender.java
