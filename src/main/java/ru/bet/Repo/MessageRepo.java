@@ -1,7 +1,7 @@
 package ru.bet.Repo;
 
 import org.springframework.data.repository.CrudRepository;
-import ru.bet.Message;
+import ru.bet.domen.Message;
 
 import java.util.List;
 

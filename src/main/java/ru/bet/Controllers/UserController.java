@@ -6,8 +6,8 @@ import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import ru.bet.Role;
-import ru.bet.User;
+import ru.bet.domen.Role;
+import ru.bet.domen.User;
 import ru.bet.services.UserService;
 
 import java.util.Map;

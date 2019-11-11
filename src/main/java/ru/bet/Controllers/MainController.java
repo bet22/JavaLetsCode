@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
-import ru.bet.Message;
+import ru.bet.domen.Message;
 import ru.bet.Repo.MessageRepo;
-import ru.bet.User;
+import ru.bet.domen.User;
 
 import javax.validation.Valid;
 import java.io.File;

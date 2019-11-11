@@ -1,4 +1,4 @@
-package ru.bet;
+package ru.bet.domen;
 
 import org.springframework.security.core.GrantedAuthority;
 

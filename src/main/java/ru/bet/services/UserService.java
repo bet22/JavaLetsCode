@@ -1,6 +1,5 @@
 package ru.bet.services;
 
-import freemarker.template.utility.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -9,8 +8,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import ru.bet.Repo.UserRepo;
-import ru.bet.Role;
-import ru.bet.User;
+import ru.bet.domen.Role;
+import ru.bet.domen.User;
 
 import java.util.*;
 import java.util.stream.Collectors;

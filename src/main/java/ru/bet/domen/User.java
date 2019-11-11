@@ -1,7 +1,8 @@
-package ru.bet;
+package ru.bet.domen;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import ru.bet.domen.Role;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -21,10 +22,6 @@ public class User implements UserDetails {
 
     @NotBlank(message = "Password cannot be empty")
     private String password;
-
-    @Transient
-    @NotBlank(message = "Password confirmation cannot be empty")
-    private String password2;
 
     private boolean active;
 
@@ -123,11 +120,4 @@ public class User implements UserDetails {
         this.activationCode = activationCode;
     }
 
-    public String getPassword2() {
-        return password2;
-    }
-
-    public void setPassword2(String password2) {
-        this.password2 = password2;
-    }
 }
