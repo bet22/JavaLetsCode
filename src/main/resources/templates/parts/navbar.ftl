@@ -8,9 +8,9 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+<!--            <li class="nav-item">
                 <a class="nav-link" href="/">Home</a>
-            </li>
+            </li>-->
             <li class="nav-item">
                 <a class="nav-link" href="/main">Massages</a>
             </li>
@@ -26,6 +26,10 @@
             </#if>
         </ul>
         <div class="navbar-text mr-3">${name}</div>
-        <@log.logout/>
+        <#if user??>
+            <@log.logout/>
+        <#else>
+            <@log.log_in />
+        </#if>
     </div>
 </nav>
